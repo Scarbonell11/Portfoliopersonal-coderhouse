@@ -469,7 +469,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
-  background-image: url(/images/footer.png);
+  background-image: url(./images/footer.png);
   background-size: cover;
 }
 

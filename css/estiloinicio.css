@@ -26,6 +26,8 @@ body {
   height: 100px;
 }
 
+
+
 .cabecera h1 {
   color: white;
   font-size: 45px;
@@ -40,7 +42,7 @@ body {
 }
 
 .navbar-toggler {
-  color: white;
+  color:  #da2140;
 }
 
 .navbar a {
@@ -570,6 +572,11 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+  }
+  
+  
+  .contactoLateral p {
+    font-size: 1.5rem;
   }
   
   .formRegister{

@@ -1,0 +1,31 @@
+/*---mixins*/
+@mixin comments($color_5: white){
+    font-size: 0.9rem;
+    color: #6282a7;
+}
+
+@mixin botoncabecera($color_2: white){
+        font-size: 30px;
+        padding: 4px 20px;
+        margin-left: 10px;
+        text-align: left;
+        text-decoration: none;
+        color: $color_1;
+        background: rgb(168, 42, 42);
+        border-radius: 18px;
+        box-shadow: rgb(110, 108, 108) 4px 3px 3px;
+        border: solid 1px rgb(110, 108, 108);
+        &:hover {
+            color: $color_3;
+            font-size: 32px;
+            padding: 8px 40px;
+            margin-left: 20px;
+            text-align: left;
+            text-decoration: none;
+            background: #da2140;
+            border-radius: 18px;
+            box-shadow: rgb(110, 108, 108) 4px 3px 3px;
+            border: solid 1px rgb(110, 108, 108);
+            transition: 0.5s;
+        }  
+}

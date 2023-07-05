@@ -396,6 +396,7 @@ body {
 .video1 {
   width: 600px;
   height: 350px;
+  margin: 15px;
 }
 .video1 video {
   width: 600px;
